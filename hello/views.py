@@ -1,3 +1,4 @@
+from django.db.models import Max
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -5,4 +6,11 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello There, This is a website!")
 
-# left off at 20:52
+def chris(request):
+    return HttpResponse("This is Chris I am talking to . . . I think?")
+
+def max(request):
+        return HttpResponse("No wait, it is max!")
+
+def mel(request):
+    return HttpResponse("Melanie is the Queen!")
