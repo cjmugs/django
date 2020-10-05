@@ -14,3 +14,4 @@ def max(request):
 
 def mel(request):
     return HttpResponse("Melanie is the Queen!")
+# left off at23:22
