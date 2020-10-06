@@ -1,1 +1,6 @@
-# left off at 38:40
+from djanog.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="index")
+] 
