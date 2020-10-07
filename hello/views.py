@@ -12,4 +12,3 @@ def greet(request, name):
 
 def index(request):
     return render(request, "hello/index.html")
-# left off at 28:47
